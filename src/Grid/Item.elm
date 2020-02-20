@@ -42,6 +42,6 @@ create : a -> Int -> Item a
 create data contentIndex =
     { contentIndex = contentIndex
     , data = data
-    , visibleIndex = contentIndex
     , selected = False
+    , visibleIndex = contentIndex
     }
